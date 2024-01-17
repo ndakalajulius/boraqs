@@ -1,18 +1,21 @@
-import Navbar from "./components/Navbar";
-import "./App.css";
+// App.js
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Navbar from './components/Navbar';
 
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <div className="container">
-        <article>
-          <h1>What is Lorem Ipsum? </h1>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry...
-        </article>
-      </div>
-    </div>
-  );
-}
+const App = () => {
+ return (
+    <>
+    <Navbar/>
+       <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+       </Routes>
+    </>
+ );
+};
 
 export default App;
