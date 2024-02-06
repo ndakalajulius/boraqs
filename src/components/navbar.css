@@ -5,15 +5,16 @@
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: #fff;
-  color: black;
+  background-color: #8a60ce;
+  color: rgb(236, 227, 227);
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 .brand-name {
   text-decoration: none;
-  color: black;
-  font-size: 1.3rem;
+  color: rgb(238, 232, 232);
+  font-size: 2rem;
   margin-left: 1rem;
+  font-weight: bolder;
 }
 .navigation-menu {
   margin-left: auto;
@@ -21,6 +22,7 @@
 .navigation-menu ul {
   display: flex;
   padding: 0;
+  color: aliceblue;
 }
 .navigation-menu li {
   list-style-type: none;
@@ -30,6 +32,8 @@
   text-decoration: none;
   display: block;
   width: 100%;
+  color: aliceblue;
+  font-weight: 900;
 }
 .hamburger {
   border: 0;

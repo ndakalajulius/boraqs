@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        MacroSoft
+        BORAQS TRACKER
       </a>
       <button className="hamburger"
       onClick={() => {
@@ -34,13 +34,16 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <a href="/home">Home</a>
+            <a href="/">HOME</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/about">ABOUT</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="/contact">CONTACT</a>
+          </li>
+          <li>
+            <a href="/signup">SIGNUP</a>
           </li>
         </ul>
       </div>
