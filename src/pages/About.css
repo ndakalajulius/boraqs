@@ -1,12 +1,29 @@
 /* AboutPage.css */
 
 .about-container {
-    width: 100%;
+    width: 70%;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #f5ecec;
+    
   }
-  
+  .choose-container {
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5ecec;
+    
+  }
+  .mission-container {
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c4c1c1;
+    
+  }
   h1 {
     color: #333;
   }
