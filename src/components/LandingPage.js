@@ -7,7 +7,7 @@ const LandingPage = () => {
   return (
     <div className="landing-container">
       <header>
-        <h1>Welcome to File Tracker</h1>
+        <h1>Welcome to Boraqs Tracker</h1>
         <p>Track your files efficiently with our system</p>
       </header>
       <section className="features">
