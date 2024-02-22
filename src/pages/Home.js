@@ -1,12 +1,12 @@
 import React from "react";
 import LandingPage from "../components/LandingPage";
-import Secretary from "../components/Profiles/Secretary";
+import FileTrackingDashboard from "../components/FileTrackingDashboard";
 
 function Home() {
   return (
     <div>
       <LandingPage />
-      <Secretary/>
+      <FileTrackingDashboard/>
     </div>
   );
 }
