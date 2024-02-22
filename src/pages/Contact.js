@@ -2,9 +2,12 @@
 
 import React from 'react';
 import './Contact.css';
+import Footer from '../components/Footer';
+
 
 const Contact = () => {
   return (
+    <>
     <div className="contact-container">
       <h1>Contact Us</h1>
       <form className="contact-form">
@@ -23,6 +26,9 @@ const Contact = () => {
         <button type="submit">Submit</button>
       </form>
     </div>
+    
+    <Footer/>
+   </>
   );
 };
 

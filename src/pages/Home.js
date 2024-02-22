@@ -1,12 +1,12 @@
 import React from "react";
 import LandingPage from "../components/LandingPage";
-import FileTrackingDashboard from "../components/FileTrackingDashboard";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
     <div>
       <LandingPage />
-      <FileTrackingDashboard/>
+      <Footer/>
     </div>
   );
 }

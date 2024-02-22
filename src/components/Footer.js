@@ -1,28 +1,20 @@
+// Footer.js
 import React from 'react';
-import './Footer.css'; // Importing CSS file for styling
+import './Footer.css'; // Import the CSS file for styling
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer__content">
-        <div className="footer__section">
-          <h3>About Us</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div className="footer__section">
-          <h3>Contact Us</h3>
-          <ul>
-            <li>Email: example@example.com</li>
-            <li>Phone: 123-456-7890</li>
-            <li>Address: 123 Main St, City, Country</li>
-          </ul>
-        </div>
-      </div>
-      <div className="footer__bottom">
-        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+      <div className="footer-content">
+        <p>Contact Us: support@example.com | +1-800-123-4567</p>
+        <p>Help Center: <a href="/faq">FAQ</a> | <a href="/user-guide">User Guide</a></p>
+        <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+        <p>Copyright © 2024 TrackingSystem Inc. All rights reserved.</p>
+        <p>Follow Us: <a href="/twitter"><i className="fab fa-twitter"></i></a> <a href="/facebook"><i className="fab fa-facebook"></i></a></p>
+        <p><a href="/feedbackform">Send Feedback</a></p>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

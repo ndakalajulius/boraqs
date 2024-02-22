@@ -1,0 +1,16 @@
+/* SocialMedia.css */
+.social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  .social-media a:hover {
+    color: #007bff; /* Adjust hover color as needed */
+  }
+  

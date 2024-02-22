@@ -2,8 +2,9 @@
 
 import React from "react";
 import "./About.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import SocialMedia from "../components/SocialMedia";
 
 const About = () => {
   return (
@@ -50,6 +51,7 @@ const About = () => {
       </div>
       
       <Footer/>
+      <SocialMedia/>
     </>
   );
 };
