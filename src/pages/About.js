@@ -4,7 +4,8 @@ import React from "react";
 import "./About.css";
 // import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import SocialMedia from "../components/SocialMedia";
+
+import Tacking from "../components/Tacking";
 
 const About = () => {
   return (
@@ -44,14 +45,14 @@ const About = () => {
           inefficiencies.
         </p>
         <p>
-          <b> Customer Support</b>: We're committed to providing exceptional customer
-          support every step of the way. Our team is here to assist you with any
-          questions or concerns you may have.
+          <b> Customer Support</b>: We're committed to providing exceptional
+          customer support every step of the way. Our team is here to assist you
+          with any questions or concerns you may have.
         </p>
       </div>
-      
-      <Footer/>
-      <SocialMedia/>
+
+      <Footer />
+      <Tacking />
     </>
   );
 };
