@@ -65,6 +65,9 @@ const SignUp = () => {
             <option value="option1">Executive Officer</option>
             <option value="option2"> Secretary</option>
             <option value="option3">Registra</option>
+            <option value="option1">Office Manager</option>
+            <option value="option2"> Accountant</option>
+            <option value="option3"> Driver</option>
             {/* Add more options as needed */}
           </select>
         </div>
@@ -93,6 +96,7 @@ const SignUp = () => {
         <button type="submit">Sign Up</button>
       </form>
     </div>
+    
   );
 };
 
