@@ -1,5 +1,5 @@
 // SignUp.js
-
+// import Footer from "./Footer"
 import React, { useState } from "react";
 import "./SignUp.css";
 
@@ -95,6 +95,7 @@ const SignUp = () => {
         </div>
         <button type="submit">Sign Up</button>
       </form>
+      
     </div>
     
   );
